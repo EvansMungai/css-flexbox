@@ -19,19 +19,22 @@ body {
 }
 .box {
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    min-width: 500px;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .one {
     background-color: red;
+    /* flex-basis: 100; */
 }
 
 .two {
     background-color: blue;
+    /* flex-basis: 200; */
 }
 
 .three {
     background-color: green;
+    /* flex-basis: 300; */
 }
